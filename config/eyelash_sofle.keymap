@@ -39,6 +39,8 @@
 
  behaviors {
         gresc: grave_escape {
+
+       // Ajout d'un commentaire pour forcer la recompilation
             compatible = "zmk,behavior-mod-morph";
             #binding-cells = <0>;
             bindings = <&kp ESC>, <&kp UC(0x0060)>;
